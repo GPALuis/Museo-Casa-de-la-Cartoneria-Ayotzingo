@@ -1,3 +1,4 @@
+//creacion de filtros
 $(function () {
     $('.filter').click(function () {
         $(this).addClass('active').siblings().removeClass('active');
@@ -9,7 +10,7 @@ $(function () {
             $('.cont-work').filter('.' + valor).show('1000');
         }
     });
-
+//animaciones de navegacion de las partes de las paginas web 
     let equipo = $('#equipo').offset().top,
         servicio = $('#servicio').offset().top,
         trabajo = $('#trabajo').offset().top,
@@ -21,7 +22,7 @@ $(function () {
         trabajo = $('#trabajo').offset().top,
         contacto = $('#contacto').offset().top;
     });
-
+//enlaces
     $('#enlace-inicio').on('click', function(e){
         e.preventDefault();
         $('html, body').animate({

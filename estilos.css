@@ -1,3 +1,4 @@
+/*asignando mis colores al titulo */
 :root{
   --color1: rgb(219,144,.5);
   --color2: rgba(23, 180, 83, 0.877);
@@ -14,22 +15,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* */
 
 body {
   font-family: 'open sans';
   background: var(--fondo);
 }
-
+/* la orientacion de las imagenes  */
 img{
   vertical-align: top;
 }
-
+/*
 
 /* Preloader */
 .hidden{
   overflow: hidden;
 }
-
+/* diseño del fondo*/
 .centrado{
   position: fixed;
   width: 100vw;
@@ -40,6 +42,7 @@ img{
   justify-content: center;
   align-items: center;
 }
+/* */
 .lds-facebook {
   display: inline-block;
   position: relative;
@@ -85,7 +88,7 @@ img{
 }
 
 /* Header */
-
+/*diseño del fondo  */
 header{
   width: 100%;
   height:600px;
@@ -98,7 +101,7 @@ header{
   background-position: center;
   background-size: cover;
 }
-
+/* el formato de las imagenes*/
 nav{
   width: 100%;
   position: fixed;
@@ -116,6 +119,7 @@ nav{
   height:100px;
   color:#0a0a0a;
 }
+/* diseño de las imagenes */
 
 .contenedor-nav{
   display: flex;
@@ -127,7 +131,7 @@ nav{
   height:inherit;
   overflow: hidden;
 }
-
+/* los distintos enlases para navegar*/
 nav .enlaces a{
   display: inline-block;
   padding: 5px 0;
@@ -143,7 +147,7 @@ nav .enlaces a:hover{
   border-bottom: 3px solid #1498a4;
   transition: 0.6s;
 }
-
+/* la agregacion de los iconos */
 .logo, .logo img{ height:80px;}
 
 .icono{
@@ -151,6 +155,7 @@ nav .enlaces a:hover{
   font-size: 24px;
   padding: 23.5px 20px;
 }
+/* el formato del texto de las imagenes */
 
 .textos{
   width: 100%;
@@ -168,7 +173,7 @@ nav .enlaces a:hover{
 
 .textos>h2{font-size: 30px; font-weight: 300;}
 
-/* Main */
+/* diseño de mi contenedor  */
 
 .contenedor{
   margin:auto;
@@ -191,6 +196,7 @@ nav .enlaces a:hover{
   color: var(--color1);
 }
 
+/* contenido de me caja de after*/
 .after::after{
   content:'';
   display: block;
@@ -201,7 +207,7 @@ nav .enlaces a:hover{
   background: var(--color1);
   margin-bottom: var(--espacios-contenido);
 }
-
+/*contenedor de mi caja card */
 .card{
   display: flex;
   justify-content: space-around;
@@ -230,7 +236,7 @@ nav .enlaces a:hover{
   width: 100%;
   padding: var(--espacios) 0;
 }
-
+/* fondo de pie de pagina*/
 .about{
   background: url(img/fondo\ pie.jpg);
   height: auto;
@@ -241,6 +247,7 @@ nav .enlaces a:hover{
   color:#fff;
 
 }
+/* diseño de mi informacion*/
 .info{
 display:flex;
 color: rgb(219,144,.5);
@@ -319,7 +326,7 @@ background: url(img/fondo\ pie.jpg);
   font-weight: 300;
 }
 
-/* Footer */
+/* fondo de mi fondo y marcos */
 
 footer{background:url(img/fondo\ pie.jpg);}
 
